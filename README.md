@@ -6,27 +6,37 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-import sys
-### Step 2: 
-open file using open()
-### Step 3: 
-Read the file and save in variable
-### Step 4:  
-use for loop
-### Step 5: 
-use len to count number of words
-### Step 6: 
-display the value using print() function
-## PROGRAM:
-### PYTHON FILE:
-```
-```
-### TEXT FILE:
-```
+Import the sys module.
  
 
+### Step 2: 
+Pass the filename as the first argument after the name of script. Open the file as sys.argv[1]
+ 
+### Step 3: 
+Read the file using read() method.
+
+
+### Step 4: 
+Use split() method to split the file content into words. 
+
+### Step 5: 
+Use len() to find the total words.
+
+### Step 6: 
+Run the program to determine the number of words in the file created.
+
+## PROGRAM:
 ```
+import sys
+fp= open(sys.argv[1])
+data=fp.read()
+words=data.split()
+print("Total Words:",len(words))
+```
+
 ### OUTPUT:
+![gitlogo](1.jpg)
+
 
 
 ## RESULT:
