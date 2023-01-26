@@ -20,20 +20,14 @@ display the value using print() function
 ## PROGRAM:
 ### PYTHON FILE:
 ```
-import sys
-fp = open(sys.argv[1]) 
-data=fp.read()
-word=data.split()
-print("No of words",len(word))
 ```
 ### TEXT FILE:
 ```
-Hello Good Morning 
-Be a Good Daypython 
+ 
 
 ```
 ### OUTPUT:
-![output](WordCount.jpg)
+
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
